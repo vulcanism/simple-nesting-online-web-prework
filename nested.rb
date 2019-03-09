@@ -17,6 +17,7 @@ def hopper
      }
 
 return programmer_hash[:grace_hopper]
+return programmer_hash.dig 
 end
 
 def alan_kay_is_known_for
